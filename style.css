@@ -1,0 +1,162 @@
+ * {
+    /* border: 2px solid red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+} 
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 10px 100px;
+    gap: 10px;
+}
+
+.topSection button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+.informationPic img{
+    border: 3px solid #0080FE;
+    border-radius: 15px;
+}
+
+.informationPic Figcaption{
+    text-align: center;
+}
+
+li{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+.sectionOne h1{
+    font-size: 48px;
+    
+}
+
+img{
+    height: auto;
+    width: 100%;
+    min-width: 0;
+}
+
+.sectionTwo .informationPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0%;
+    padding: 0px 150px 50px;
+    gap: 20px;
+}
+
+.sectionTwo h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.topSection {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 100px 100px;
+    justify-content:flex-start;
+    color: #F9FAF8;
+    gap: 20px;
+}
+
+.topSection div {
+    min-width: 0;
+    flex: 1 1 2px;
+}
+
+.topSection.sectionOne{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topSection img {
+    border: 1px solid #1f2937;
+    border-radius: 8px;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.custRev {
+    padding: 100px 150px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.custRev .quote {
+    font-size: 36px;
+    color: #1f2937;
+    flex: 1 1 0;
+}
+
+.custRev .author {
+    align-self: flex-end;
+    flex: 1 1 auto;
+    font-size: 22px;
+    font-weight: 300;
+    flex: 1 1 0;
+}
+
+.sectionThreeContainer {
+    padding: 50px 100px;
+    
+}
+
+.sectionThreeItem {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 30px 100px;
+    justify-content:baseline;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+}
+
+.sectionThreeItemP1 {
+    margin-right: auto;
+}
+
+.sectionThreeItemP2 button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0 5px ;
+}
